@@ -19,30 +19,26 @@ body {
     margin-bottom: 50px
 }
 
-@media only screen and (min-width: 400px) and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .subContHolder {
         display: grid;
-        grid-template-columns: repeat(1fr);
-
-    }
-}
-
-@media only screen and (min-width: 800px) and (max-width: 1050px) {
-    .subContHolder {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        /* This ensures only one column */
     }
 }
 
 
 
 
-@media only screen and (min-width: 1050px) and (max-width: 2600px) {
+
+
+@media only screen and (min-width: 1000px) and (max-width: 2600px) {
     .subContHolder {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 
 .subContHolder {
     display: grid;
