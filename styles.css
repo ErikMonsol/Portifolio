@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=PT+Sans+Caption&family=Russo+One&display=swap');
+
+body {
+    background-image: url("background.jpg");
+
+
+}
+
+.contHolder {}
+
+.portCon {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    height: auto;
+    width: 92%;
+    margin: 0 auto;
+    color: #fff;
+    background: #254357;
+    margin-bottom: 50px
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+    .subContHolder {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
+    .subContHolder {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1050px) and (max-width: 2600px) {
+    .subContHolder {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.subContHolder {
+    display: grid;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    justify-content: center;
+
+}
+
+img {
+    width: 100%;
+}
+
+.textContent {
+    width: 92%;
+    margin-left: 3%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 1.1rem;
+}
+
+p {
+    font-family: 'Karma', serif;
+}
+
+.contHolder {
+    padding: 39px 10px;
+}
+
+.paddingContent {
+    padding: 10px 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
